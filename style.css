@@ -1,5 +1,5 @@
 * {
-    cursor: url('0/0.png') 16 16, auto;
+  cursor: url('0/0.png') 16 16, auto;
 }
 
 body, html {
@@ -9,7 +9,7 @@ body, html {
   overflow: hidden;
 }
 
-video {
+video#bg {
   position: fixed;
   top: 0;
   left: 0;
