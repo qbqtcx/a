@@ -1,19 +1,5 @@
-const titles = [
-    "Snowy",
-    "sNowy",
-    "snOwy",
-    "snoWy",
-    "snowY",
-    "snoWy",
-    "snOwy",
-    "sNowy"
-];
+  const userLang = navigator.language || navigator.userLanguage;
 
-let index = 0;
-
-function changeTitle() {
-    document.title = titles[index];
-    index = (index + 1) % titles.length;
-}
-
-setInterval(changeTitle, 50);
+  if (userLang.startsWith('en')) {
+    window.location.href = '/en';
+  }
