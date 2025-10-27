@@ -16,4 +16,4 @@ function changeTitle() {
     index = (index + 1) % titles.length;
 }
 
-setInterval(changeTitle, 100);
+setInterval(changeTitle, 50);
