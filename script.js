@@ -15,3 +15,5 @@ function changeTitle() {
     document.title = titles[index];
     index = (index + 1) % titles.length;
 }
+
+setInterval(changeTitle, 10);
