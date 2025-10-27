@@ -1,13 +1,13 @@
-const titles = [
-    "Snowy",
-    "sNowy",
-    "snOwy",
-    "snoWy",
-    "snowY",
-    "snoWy",
-    "snOwy",
-    "sNowy"
-];
+// const titles = [
+ //   "Snowy",
+ //   "sNowy",
+ //   "snOwy",
+ //   "snoWy",
+ //   "snowY",
+ //   "snoWy",
+ //   "snOwy",
+ //   "sNowy"
+// ];
 
 let index = 0;
 
