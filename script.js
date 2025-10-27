@@ -1,9 +1,5 @@
-    const userLang = navigator.language || navigator.userLanguage;
-
-    if (userLang && userLang.startsWith('en')) {
-      document.title = 'Redirecting...';
-      window.location.href = '/en';
-    } else {
-      document.title = 'Redirecting...';
-      window.location.href = '/en';
-    }
+if (userLang.startsWith('en')) {
+  window.location.href = '/en';
+} else {
+  window.location.href = '/en';
+}
