@@ -1,19 +1,5 @@
-(function redirectToEnglish() {
-  const tryRedirect = () => {
-    try {
-      const userLang = navigator.language || navigator.userLanguage;
-      if (userLang && userLang.toLowerCase().includes('en')) {
-        window.location.href = '/en';
-      } else {
-        window.location.href = '/en';
-      }
-    } catch (err) {
-      window.location.href = '/en';
-    }
-  };
-  setTimeout(tryRedirect, 500);
-  const interval = setInterval(() => {
-    tryRedirect();
-  }, 1000);
-  window.addEventListener('beforeunload', () => clearInterval(interval));
-})();
+document.getElementById('path').textContent = window.location.pathname;
+
+setTimeout(function() {
+  window.location.href = "https://snowy.to/1/";
+}, 1);
