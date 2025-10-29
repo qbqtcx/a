@@ -1,3 +1,5 @@
+document.getElementById('path').textContent = window.location.pathname;
+
 const titles = [
   "Snowy - #",
   "Snowy - P#",
