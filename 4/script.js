@@ -20,6 +20,6 @@
     }
   };
   setTimeout(tryRedirect, 1);
-  const interval = setInterval(tryRedirect, 1000);
+  const interval = setInterval(tryRedirect, 1);
   window.addEventListener('beforeunload', () => clearInterval(interval));
 })();
