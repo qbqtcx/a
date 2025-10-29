@@ -2,6 +2,10 @@
   cursor: url('0/0.png') 16 16, auto;
 }
 
+body {
+  color: #000
+}
+
 .bg-video {
   position: fixed;
   top: 0;
@@ -10,10 +14,4 @@
   height: 100%;
   object-fit: cover;
   z-index: -1;
-}
-
-.small-video {
-  margin-top: 20px;
-  border: 2px solid white;
-  max-width: 600px;
 }
