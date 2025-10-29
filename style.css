@@ -4,6 +4,7 @@ body {
 
 .cool {
  font-family: 'gg sans', sans-serif;
- font-size: 14x;
+ font-size: 14px;
  color: #ffffff;
+ background-color: #000000;
 }
