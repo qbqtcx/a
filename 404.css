@@ -1,12 +1,12 @@
 body {
   color: #000001;
-  text-align: center;
 }
 
 p {
   font-family: 'gg sans', sans-serif;
   font-size: 18px;
   color: #ffffff;
+  text-align: center;
 }
 
 .blue {
