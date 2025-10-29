@@ -30,7 +30,7 @@ function changeTitle() {
 
 function startTitleAnimation() {
   stopTitleAnimation();
-  titleInterval = setInterval(changeTitle, 100);
+  titleInterval = setInterval(changeTitle, 500);
 }
 
 function stopTitleAnimation() {
@@ -38,7 +38,7 @@ function stopTitleAnimation() {
     clearInterval(titleInterval);
     titleInterval = null;
   }
-  document.title = "Snowy";
+  document.title = "Snowy - Page not found";
   index = 0;
 }
 
