@@ -21,7 +21,7 @@ function changeTitle() {
 
 function startTitleAnimation() {
   if (!titleInterval) {
-    titleInterval = setInterval(changeTitle, 50);
+    titleInterval = setInterval(changeTitle, 100);
   }
 }
 
