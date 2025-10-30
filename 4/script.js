@@ -1,13 +1,23 @@
 (function redirectToLanguage() {
-  const languages = ['en', 'fr', 'es', 'de', 'it'];
+  const langPages = {
+    en: '/5',
+    fr: '/6',
+    es: '/7',
+    de: '/8',
+    it: '/9'
+  };
+
   const langListDiv = document.querySelector('.lang-list');
+
   const tryRedirect = () => {
     try {
       const userLang = navigator.language || navigator.userLanguage;
       if (userLang) {
-        const langCode = languages.find(lang => userLang.toLowerCase().startsWith(lang));
+        const langCode = Object.keys(langPages).find(lang =>
+          userLang.toLowerCase().startsWith(lang)
+        );
         if (langCode) {
-          window.location.href = `/${langCode}`;
+          window.location.href = langPages[langCode];
           return;
         }
       }
