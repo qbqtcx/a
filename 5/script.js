@@ -1,4 +1,4 @@
-const link = document.querySelector('a');
+const link = document.getElementById('link');
 const texts = [
   "Change language",
   "Changer de langue",
