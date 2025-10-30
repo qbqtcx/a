@@ -1,13 +1,11 @@
-const text = "hello world";
-const display = document.getElementById("text");
+const link = document.querySelector('a');
+const texts = ["Hello World!", "Welcome to Snowy", "Enjoy your stay!"];
 let index = 0;
 
-function addLetter() {
-  if (index < text.length) {
-    display.textContent += text[index];
-    index++;
-    setTimeout(addLetter, 250);
-  }
+function updateText() {
+  link.textContent = texts[index];
+  index = (index + 1) % texts.length;
 }
 
-addLetter();
+updateText();
+setInterval(updateText, 1000);
