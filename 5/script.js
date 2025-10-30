@@ -1,5 +1,11 @@
 const link = document.querySelector('a');
-const texts = ["Hello World!", "Welcome to Snowy", "Enjoy your stay!"];
+const texts = [
+  "Change language",
+  "Changer de langue",
+  "Cambiar idioma",
+  "Sprache ändern",
+  "Cambia lingua",
+];
 let index = 0;
 
 function updateText() {
